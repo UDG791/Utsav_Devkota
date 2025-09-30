@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Door step | Online Shopping</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <img src="images/mainlogo.png" alt="Door step Logo">
+      <span>Door step</span>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li class="dropdown">
+          <a href="#">Categories</a>
+          <ul class="dropdown-menu">
+            <li><a href="#snacks">Snacks</a></li>
+            <li><a href="#fashion">Fashion</a></li>
+            <li><a href="#furniture">Furniture</a></li>
+            <li><a href="#electronics">Electronics</a></li>
+            <li><a href="#toys">Toys</a></li>
+            <li><a href="#perfume">Perfume</a></li>
+            <li><a href="#watches">Watches</a></li>
+            <li><a href="#anime">Anime Products</a></li>
+          </ul>
+        </li>
+        <li><a href="#login">Login</a></li>
+        <li><a href="#seller">Become a Seller</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+        <li><button id="cartBtn">Cart (<span id="cart-count">0</span>)</button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="home-section">
+    <div class="slider">
+      <div class="slides">
+        <img src="images/offer1.png" alt="Offer 1">
+        <img src="images/offer2.png" alt="Offer 2">
+        <img src="images/offer3.png" alt="Offer 3">
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= Products ================= -->
+
+  <!-- Snacks -->
+  <section id="snacks">
+    <h1>Snacks</h1>
+    <div class="products">
+      <div class="product"><img src="images/lays.png"><h2>Lays Chips</h2><p>Lays Magic Masala Potato Chips</p><span>NPR 50</span><button onclick="buyNow('Lays Chips')">Buy Now</button><button onclick="addToCart('Lays Chips',50)">Add to Cart</button></div>
+      <div class="product"><img src="images/kurkure.png"><h2>Kurkure</h2><p>Kurkure Masala Munch 50g</p><span>NPR 40</span><button onclick="buyNow('Kurkure')">Buy Now</button><button onclick="addToCart('Kurkure',40)">Add to Cart</button></div>
+      <div class="product"><img src="images/pringles.png"><h2>Pringles</h2><p>Classic Salted Potato Chips</p><span>NPR 200</span><button onclick="buyNow('Pringles')">Buy Now</button><button onclick="addToCart('Pringles',200)">Add to Cart</button></div>
+      <div class="product"><img src="images/popcorn.png"><h2>Popcorn</h2><p>Homestyle Microwave Popcorn</p><span>NPR 100</span><button onclick="buyNow('Popcorn')">Buy Now</button><button onclick="addToCart('Popcorn',100)">Add to Cart</button></div>
+      <div class="product"><img src="images/chocopie6.png"><h2>Chocopie</h2><p>Lotte Choco Pie Original 150g - 6 packs</p><span>NPR 150</span><button onclick="buyNow('Chocopie')">Buy Now</button><button onclick="addToCart('Chocopie',150)">Add to Cart</button></div>
+    </div>
+  </section>
+
+  <!-- Fashion -->
+  <section id="fashion">
+    <h1>Fashion</h1>
+    <div class="products">
+      <div class="product"><img src="images/t-shirt.png"><h2>T-Shirt</h2><p>Formal Wear T-Shirt For Men</p><span>NPR 500</span><button onclick="buyNow('T-Shirt')">Buy Now</button><button onclick="addToCart('T-Shirt',500)">Add to Cart</button></div>
+      <div class="product"><img src="images/jeans.png"><h2>Jeans</h2><p>Medium Blue Jeans for Men</p><span>NPR 1200</span><button onclick="buyNow('Jeans')">Buy Now</button><button onclick="addToCart('Jeans',1200)">Add to Cart</button></div>
+      <div class="product"><img src="images/jacket.png"><h2>Jacket</h2><p>Montana men jacket Black-Fluff</p><span>NPR 2500</span><button onclick="buyNow('Jacket')">Buy Now</button><button onclick="addToCart('Jacket',2500)">Add to Cart</button></div>
+      <div class="product"><img src="images/sneakers.png"><h2>Sneakers</h2><p>Black Stylish Sneakers Shoes For Men</p><span>NPR 1800</span><button onclick="buyNow('Sneakers')">Buy Now</button><button onclick="addToCart('Sneakers',1800)">Add to Cart</button></div>
+      <div class="product"><img src="images/cap.png"><h2>Cap</h2><p>Vintage Washed Cotton Baseball Embroidery Outdoor Unisex Cap</p><span>NPR 300</span><button onclick="buyNow('Cap')">Buy Now</button><button onclick="addToCart('Cap',300)">Add to Cart</button></div>
+    </div>
+  </section>
+
+  <!-- Furniture -->
+  <section id="furniture">
+    <h1>Furniture</h1>
+    <div class="products">
+      <div class="product"><img src="images/sofa.png"><h2>Sofa</h2><p>3 Seater Sofa for Living Room</p><span>NPR 15000</span><button onclick="buyNow('Sofa')">Buy Now</button><button onclick="addToCart('Sofa',15000)">Add to Cart</button></div>
+      <div class="product"><img src="images/diningtable.png"><h2>Dining Table</h2><p>Modern Dining Table Set for 8</p><span>NPR 20000</span><button onclick="buyNow('Dining Table')">Buy Now</button><button onclick="addToCart('Dining Table',20000)">Add to Cart</button></div>
+      <div class="product"><img src="images/bed.png"><h2>Bed</h2><p>Modern Bedroom Furniture</p><span>NPR 30000</span><button onclick="buyNow('Bed')">Buy Now</button><button onclick="addToCart('Bed',30000)">Add to Cart</button></div>
+      <div class="product"><img src="images/chair.png"><h2>Chair</h2><p>Furniliving Modern Accent Chair</p><span>NPR 4000</span><button onclick="buyNow('Chair')">Buy Now</button><button onclick="addToCart('Chair',4000)">Add to Cart</button></div>
+      <div class="product"><img src="images/wardrobe.png"><h2>Wardrobe</h2><p>MOUMON Glass Wardrobe Closet with Lights</p><span>NPR 12000</span><button onclick="buyNow('Wardrobe')">Buy Now</button><button onclick="addToCart('Wardrobe',12000)">Add to Cart</button></div>
+    </div>
+  </section>
+
+  <!-- Electronics -->
+  <section id="electronics">
+    <h1>Electronics</h1>
+    <div class="products">
+      <div class="product"><img src="images/phone.png"><h2>Iphone-17 pro max</h2><p>iPhone 17 Pro Max</p><span>NPR 25000</span><button onclick="buyNow('Smartphone')">Buy Now</button><button onclick="addToCart('Smartphone',25000)">Add to Cart</button></div>
+      <div class="product"><img src="images/laptop.png"><h2>Laptop</h2><p> ASUS ROG Zephyrus M16</p><span>NPR 70000</span><button onclick="buyNow('Laptop')">Buy Now</button><button onclick="addToCart('Laptop',70000)">Add to Cart</button></div>
+      <div class="product"><img src="images/headphones.png"><h2>Headphone</h2><p>Beluga V2 Gaming Headphones</p><span>NPR 2000</span><button onclick="buyNow('Headphones')">Buy Now</button><button onclick="addToCart('Headphones',2000)">Add to Cart</button></div>
+      <div class="product"><img src="images/tv.png"><h2>TV</h2><p>Samsung The Wall TV</p><span>NPR 45000</span><button onclick="buyNow('TV')">Buy Now</button><button onclick="addToCart('TV',45000)">Add to Cart</button></div>
+      <div class="product"><img src="images/camera.png"><h2>Camera</h2><p>DSLR</p><span>NPR 60000</span><button onclick="buyNow('Camera')">Buy Now</button><button onclick="addToCart('Camera',60000)">Add to Cart</button></div>
+    </div>
+  </section>
+
+  <!-- Toys -->
+  <section id="toys">
+    <h1>Toys</h1>
+    <div class="products">
+      <div class="product"><img src="images/teddybear.png"><h2>Teddy Bear</h2><p>Soft Toy</p><span>NPR 800</span><button onclick="buyNow('Teddy Bear')">Buy Now</button><button onclick="addToCart('Teddy Bear',800)">Add to Cart</button></div>
+      <div class="product"><img src="images/remotecar.png"><h2>Remote Control Car</h2><p>Remote Control Transformer Car</p><span>NPR 1500</span><button onclick="buyNow('Remote Car')">Buy Now</button><button onclick="addToCart('Remote Car',1500)">Add to Cart</button></div>
+      <div class="product"><img src="images/buildingblock.png"><h2>Building Blocks</h2><p>100 pcs</p><span>NPR 1200</span><button onclick="buyNow('Building Blocks')">Buy Now</button><button onclick="addToCart('Building Blocks',1200)">Add to Cart</button></div>
+      <div class="product"><img src="images/doremon.png"><h2>Doremon toy</h2><p>Joyful Doraemon Action Figure Gift</p><span>NPR 1000</span><button onclick="buyNow('Action Figure')">Buy Now</button><button onclick="addToCart('Action Figure',1000)">Add to Cart</button></div>
+      <div class="product"><img src="images/dollhouse.png"><h2>Doll House</h2><p>ROBUD Wooden Dollhouse Playset</p><span>NPR 2500</span><button onclick="buyNow('Doll House')">Buy Now</button><button onclick="addToCart('Doll House',2500)">Add to Cart</button></div>
+    </div>
+  </section>
+
+  <!-- Perfume -->
+  <section id="perfume">
+    <h1>Perfume</h1>
+    <div class="products">
+      <div class="product"><img src="images/chanel.png"><h2>Chanel</h2><p>Chanel Coco Mademoiselle Eau De Parfum For Women - 100ml</p><span>NPR 5000</span><button onclick="buyNow('Chanel')">Buy Now</button><button onclick="addToCart('Chanel',5000)">Add to Cart</button></div>
+      <div class="product"><img src="images/dior.png"><h2>Dior</h2><p>Christian Dior Sauvage Eau De Parfum for men 100ml</p><span>NPR 6000</span><button onclick="buyNow('Dior')">Buy Now</button><button onclick="addToCart('Dior',6000)">Add to Cart</button></div>
+      <div class="product"><img src="images/guccibloom.png"><h2>Gucci Bloom</h2><p>Gucci Bloom Profumo Di Fiori by Gucci 100ml EDP</p><span>NPR 7000</span><button onclick="buyNow('Gucci Bloom')">Buy Now</button><button onclick="addToCart('Gucci Bloom',7000)">Add to Cart</button></div>
+      <div class="product"><img src="images/versace.png"><h2>Versace</h2><p>Versace Eros Eau de Parfum 200ml</p><span>NPR 5500</span><button onclick="buyNow('Versace')">Buy Now</button><button onclick="addToCart('Versace',5500)">Add to Cart</button></div>
+      <div class="product"><img src="images/armani.png"><h2>Armani</h2><p>Giorgio Armani 100ml</p><span>NPR 6500</span><button onclick="buyNow('Armani')">Buy Now</button><button onclick="addToCart('Armani',6500)">Add to Cart</button></div>
+    </div>
+  </section>
+
+  <!-- Watches -->
+  <section id="watches">
+    <h1>Watches</h1>
+    <div class="products">
+      <div class="product"><img src="images/rolex.png"><h2>Rolex</h2><p>Rolex Cosmograph Daytona Green Men's Watch</p><span>NPR 50000</span><button onclick="buyNow('Rolex')">Buy Now</button><button onclick="addToCart('Rolex',50000)">Add to Cart</button></div>
+      <div class="product"><img src="images/casio.png"><h2>Casio</h2><p>Casio G-SHOCK Digital Watch For Men</p><span>NPR 3000</span><button onclick="buyNow('Casio')">Buy Now</button><button onclick="addToCart('Casio',3000)">Add to Cart</button></div>
+      <div class="product"><img src="images/fossil.png"><h2>Fossil</h2><p>Fossil Machine Men's Watch</p><span>NPR 10000</span><button onclick="buyNow('Fossil')">Buy Now</button><button onclick="addToCart('Fossil',10000)">Add to Cart</button></div>
+      <div class="product"><img src="images/omega.png"><h2>Omega</h2><p>Omega Speedmaster Moonwatch Men's Watch </p><span>NPR 45000</span><button onclick="buyNow('Omega')">Buy Now</button><button onclick="addToCart('Omega',45000)">Add to Cart</button></div>
+      <div class="product"><img src="images/seiko.png"><h2>Seiko</h2><p>Diver's Modern Re-interpretation GMT</p><span>NPR 8000</span><button onclick="buyNow('Seiko')">Buy Now</button><button onclick="addToCart('Seiko',8000)">Add to Cart</button></div>
+    </div>
+  </section>
+
+  <!-- Anime Products -->
+  <section id="anime">
+    <h1>Anime Products</h1>
+    <div class="products">
+      <div class="product"><img src="images/narutoheadband.png"><h2>Naruto Headband</h2><p>Cosplay</p><span>NPR 500</span><button onclick="buyNow('Naruto Headband')">Buy Now</button><button onclick="addToCart('Naruto Headband',500)">Add to Cart</button></div>
+      <div class="product"><img src="images/aothoodie.png"><h2>AOT Hoodie</h2><p>Attack on Titan Anime Hoodie</p><span>NPR 2000</span><button onclick="buyNow('AOT Hoodie')">Buy Now</button><button onclick="addToCart('AOT Hoodie',2000)">Add to Cart</button></div>
+      <div class="product"><img src="images/dragonballfigure.png"><h2>Dragon Ball Figure</h2><p>Ball Z Son Goku Legendary Super Saiyan</p><span>NPR 1500</span><button onclick="buyNow('Dragon Ball Figurine')">Buy Now</button><button onclick="addToCart('Dragon Ball Figurine',1500)">Add to Cart</button></div>
+      <div class="product"><img src="images/onepiecemug.png"><h2>One Piece Mug</h2><p>One Piece Coffee Mug</p><span>NPR 800</span><button onclick="buyNow('One Piece Mug')">Buy Now</button><button onclick="addToCart('One Piece Mug',800)">Add to Cart</button></div>
+      <div class="product"><img src="images/narutomug.png"><h2>Naruto Mug</h2><p>Naruto Coffee Mug</p><span>NPR 1200</span><button onclick="buyNow('My Hero Academia Bag')">Buy Now</button><button onclick="addToCart('My Hero Academia Bag',1200)">Add to Cart</button></div>
+    </div>
+  </section>
+
+  <!-- ================= Cart Section ================= -->
+  <section id="cart-section">
+    <h1>Your Cart</h1>
+    <ul id="cart-items"></ul>
+    <p id="cart-total"></p>
+    <button id="clear-cart-btn">Clear Cart</button>
+  </section>
+
+  <!-- ================= Login Section ================= -->
+  <section id="login">
+    <h1>Login / Signup</h1>
+    <div class="login-card">
+      <form id="signup" novalidate>
+        <div class="field">
+          <input id="fname" name="fname" placeholder="First Name *" required>
+          
+                    <div class="err" id="err-fname">First name is required.</div>
+        </div>
+        <div class="field">
+          <input id="lname" name="lname" placeholder="Last Name *" required>
+          <div class="err" id="err-lname">Last name is required.</div>
+        </div>
+        <div class="field">
+          <input id="email" name="email" placeholder="Email *" required>
+          <div class="err" id="err-email">Enter a valid email.</div>
+        </div>
+        <div class="field">
+          <input id="phone" name="phone" placeholder="9800000000 *" required>
+          <div class="err" id="err-phone">Phone must start with 98 and be 10 digits.</div>
+        </div>
+        <div class="field pw-row">
+          <input id="password" name="password" type="password" placeholder="Password *" minlength="6" required>
+          <div class="pw-meter"><span id="pwBar"></span></div>
+          <div class="pw-label" id="pwLabel">Password strength: —</div>
+          <div class="err" id="err-password">Password must be at least 6 characters.</div>
+        </div>
+        <div class="actions">
+          <button class="btn" id="submitBtn" type="submit">Sign Up</button>
+          <button type="button" class="btn alt" id="clearDraft">Clear</button>
+        </div>
+      </form>
+      <div class="success-msg" id="successMsg">🎉 Signup successful! Welcome!</div>
+    </div>
+  </section>
+
+  <!-- ================= Become a Seller Section ================= -->
+  <section id="seller">
+    <h1>Become a Seller</h1>
+    <div class="seller-card">
+      <form id="sellerForm">
+        <input type="text" placeholder="Full Name *" required>
+        <input type="email" placeholder="Email *" required>
+        <input type="text" placeholder="Business / Shop Name *" required>
+        <input type="text" placeholder="Product Category *" required>
+        <textarea placeholder="Tell us about your business..." required></textarea>
+        <button type="submit" class="btn">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ================= Footer / Contact ================= -->
+  <footer id="contact">
+    <p>&copy; 2025 Door step. All rights reserved.</p>
+    <p>Contact: info@doorstep.com | Phone: +977-9866955320</p>
+    <p>By Utsav Devkota</p>
+  </footer>
+
+  <!-- JS -->
+  <script src="app.js"></script>
+</body>
+</html>
+
